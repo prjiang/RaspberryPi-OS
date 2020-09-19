@@ -1,4 +1,4 @@
-# RaspberryPi-OS
+# RaspberryPi4B-OS
 
 ## Step 1
 ### 作業系統
