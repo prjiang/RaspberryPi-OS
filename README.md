@@ -35,7 +35,7 @@ PS C:\WINDOWS\system32> ssh pi@Raspberry Pi 的ID
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
-Interfacing Options -> VNC -> Yes
+> Interfacing Options -> VNC -> Yes
 
 重啟後，開啟 VNC Viewer 會出現錯誤!
 
@@ -45,7 +45,7 @@ Interfacing Options -> VNC -> Yes
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
-Advanced option----Resolution---DMT85<b>（不要選default）</b>
+> Advanced option----Resolution---DMT85<b>（不要選default）</b>
 
 完成後，重新啟動。
 ```
