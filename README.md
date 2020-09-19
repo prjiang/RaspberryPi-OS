@@ -48,6 +48,8 @@ pi@raspberrypi:~ $ sudo raspi-config
 ```
 > Advanced option----Resolution---DMT85<b>（不要選default）</b>
 
+<br>
+
 完成後，重新啟動。
 ```
 pi@raspberrypi:~ $ sudo reboot
