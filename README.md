@@ -2,25 +2,25 @@
 
 ## Step 1
 ### 作業系統
-[RaspberryPi Imager](https://www.raspberrypi.org/downloads/raspberry-pi-os/), 下載官方版較不會出現不相容問題。
+[Raspberry Pi Imager](https://www.raspberrypi.org/downloads/raspberry-pi-os/)，下載官方版較不會出現不相容問題。
 
 將作業系統安裝至micro SD卡。
 > 建議先將SD卡格式化。
 
-新增空的ssh檔案(無副檔名) 及 製作WiFi設定檔
+新增空的ssh檔案(無副檔名) 及 製作WiFi設定檔。
 > 參考資料: [樹莓派 Raspberry Pi，無頭式(無螢幕、鍵盤與滑鼠)，安裝到進入作業系統桌面~完整教學](https://home.gamer.com.tw/creationDetail.php?sn=3908401)
 
 將 ssh 及 wpa_supplicant.conf 設定好放置boot。
 
-完成後，將SD卡插入Raspberry Pi。
+完成後，將SD卡插入 Raspberry Pi。
 
 <br>
 
 ## Step 2
 ### SSH 登入
-將Raspberry Pi開啟，進入WiFi路由器的設定頁面，<b>抓取Raspberry Pi 的IP</b>。
+將 Raspberry Pi 開啟，進入WiFi路由器的設定頁面，<b>抓取 Raspberry Pi 的IP</b>。
 
-開啟 Windows PowerShell(系統管理員)，並登入ssh
+開啟 Windows PowerShell(系統管理員)，並登入ssh。
 ```
 PS C:\WINDOWS\system32> ssh pi@Raspberry Pi 的ID
 ```
@@ -31,7 +31,7 @@ PS C:\WINDOWS\system32> ssh pi@Raspberry Pi 的ID
 <br>
 
 ### 啟用 VNC 服務
-成功登入ssh後，啟用 VNC Viewer
+成功登入ssh後，啟用 VNC Viewer。
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
@@ -42,6 +42,7 @@ pi@raspberrypi:~ $ sudo raspi-config
 <br>
 
 ### 錯誤解決
+更改解析度即可解決，<b>不要選default</b>。
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
