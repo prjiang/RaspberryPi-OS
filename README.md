@@ -11,6 +11,7 @@
 
 新增空的ssh檔案(無副檔名) 及 製作WiFi設定檔。
 > 參考資料: [樹莓派 Raspberry Pi，無頭式(無螢幕、鍵盤與滑鼠)，安裝到進入作業系統桌面~完整教學](https://home.gamer.com.tw/creationDetail.php?sn=3908401)
+
 > 建議可以對電腦熱點進行連線，方便查找Raspberry Pi 的 IP 。
 
 將 ssh 及 wpa_supplicant.conf 設定好放置boot。
