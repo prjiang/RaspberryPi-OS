@@ -20,7 +20,18 @@
 
 ## Step 2
 ### SSH 登入
+#### 抓取Raspberry Pi ID
+##### 方法一
 將 Raspberry Pi 開啟，進入WiFi路由器的設定頁面，<b>抓取 Raspberry Pi 的IP</b>。
+
+##### 方法二
+電腦開啟熱點，提供 Raspberry Pi 連線。
+
+修改 wpa_supplicant.conf。
+```
+pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+<hr>
 
 開啟 Windows PowerShell(系統管理員)，並登入ssh。
 ```
