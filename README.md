@@ -14,7 +14,7 @@
 
 將 ssh 及 wpa_supplicant.conf 設定好放置boot。
 
-完成後，將SD卡插入 Raspberry Pi。
+完成後，將SD卡插入 Raspberry Pi 。
 
 <br>
 
@@ -48,7 +48,7 @@ pi@raspberrypi:~ $ sudo raspi-config
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
-> Advanced option----Resolution---DMT85<b>（不要選default）</b>
+> Advanced Options----Resolution----DMT85<b>（不要選default）</b>
 
 <br>
 
