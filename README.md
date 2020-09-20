@@ -35,6 +35,7 @@ pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
 <br>
 
+#### 登入 SSH
 找出ID後，開啟 Windows PowerShell(系統管理員)，並登入ssh。
 ```
 PS C:\WINDOWS\system32> ssh pi@Raspberry Pi 的ID
