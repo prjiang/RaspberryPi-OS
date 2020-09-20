@@ -22,16 +22,16 @@
 
 ## Step 2
 ### SSH 登入
-#### 抓取Raspberry Pi IP
+#### 抓取Raspberry Pi 的 IP
 ##### 方法一
-將 Raspberry Pi 開啟，進入WiFi路由器的設定頁面，<b>抓取 Raspberry Pi 的IP</b>。
+將 Raspberry Pi 開啟，進入WiFi路由器的設定頁面，<b>抓取 Raspberry Pi 的 IP</b>。
 
 ##### 方法二
 電腦開啟熱點，提供 Raspberry Pi 連線。
 
-連線後即可從電腦查看 Raspberry Pi IP。
+連線後即可從電腦查看 Raspberry Pi 的 IP。
 
-若想更改連線，可登入ssh 修改 wpa_supplicant.conf ，新增WiFi之帳號密碼。
+若之後想更改連線，可登入ssh 修改 wpa_supplicant.conf ，新增WiFi之帳號密碼。
 ```
 pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
