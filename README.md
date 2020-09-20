@@ -31,7 +31,7 @@
 ```
 pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
-連線後即可從電腦查看 Raspberry Pi ID
+連線後即可從電腦查看 Raspberry Pi ID。
 
 <br>
 
