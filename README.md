@@ -27,10 +27,12 @@
 ##### 方法二
 電腦開啟熱點，提供 Raspberry Pi 連線。
 
-修改 wpa_supplicant.conf。
+修改 wpa_supplicant.conf ，新增電腦熱點之帳號密碼。
 ```
 pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
+> 參考資料: [基礎-命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
+
 連線後即可從電腦查看 Raspberry Pi ID。
 
 <br>
