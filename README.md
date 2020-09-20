@@ -11,6 +11,7 @@
 
 新增空的ssh檔案(無副檔名) 及 製作WiFi設定檔。
 > 參考資料: [樹莓派 Raspberry Pi，無頭式(無螢幕、鍵盤與滑鼠)，安裝到進入作業系統桌面~完整教學](https://home.gamer.com.tw/creationDetail.php?sn=3908401)
+> 建議可以對電腦熱點進行連線，方便查找Raspberry Pi 的 IP 。
 
 將 ssh 及 wpa_supplicant.conf 設定好放置boot。
 
@@ -20,7 +21,7 @@
 
 ## Step 2
 ### SSH 登入
-#### 抓取Raspberry Pi ID
+#### 抓取Raspberry Pi IP
 ##### 方法一
 將 Raspberry Pi 開啟，進入WiFi路由器的設定頁面，<b>抓取 Raspberry Pi 的IP</b>。
 
@@ -33,14 +34,14 @@ pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 > 參考資料: [基礎-命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
 
-連線後即可從電腦查看 Raspberry Pi ID。
+連線後即可從電腦查看 Raspberry Pi IP。
 
 <br>
 
 #### 登入 SSH
 找出ID後，開啟 Windows PowerShell(系統管理員)，並登入ssh。
 ```
-PS C:\WINDOWS\system32> ssh pi@Raspberry Pi 的ID
+PS C:\WINDOWS\system32> ssh pi@Raspberry Pi 的IP
 ```
 預設帳號為: <b>pi</b>
 
