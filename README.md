@@ -31,7 +31,7 @@
 ```
 pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
-<hr>
+<br>
 
 開啟 Windows PowerShell(系統管理員)，並登入ssh。
 ```
