@@ -8,6 +8,8 @@
   * [啟用 VNC 服務](https://github.com/prjiang/RaspberryPi4B-OS#%E5%95%9F%E7%94%A8-vnc-%E6%9C%8D%E5%8B%99)
   * [錯誤解決](https://github.com/prjiang/RaspberryPi4B-OS#%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%B1%BA)
 
+<br>
+
 ## Step 1
 ### 作業系統
 [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/raspberry-pi-os/)，下載官方版較不會出現不相容問題。
