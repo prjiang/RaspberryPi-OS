@@ -24,7 +24,7 @@
 ##### 方法一
 將 Raspberry Pi 開啟，進入WiFi路由器的設定頁面，<b>抓取 Raspberry Pi 的IP</b>。
 
-##### 方法二 ( 須登入 SSH 才能使用! )
+##### 方法二 ( 須登入 SSH 才能使用! 可先由方法一進行操作，之後再參考方法二修改 )
 電腦開啟熱點，提供 Raspberry Pi 連線。
 
 修改 wpa_supplicant.conf ，新增電腦熱點之帳號密碼。
