@@ -2,7 +2,7 @@
 
 ## Step 1
 ### 作業系統
-[Raspberry Pi Imager](https://www.raspberrypi.org/downloads/raspberry-pi-os/)，下載官方版較不會出現不相容問題。
+[Raspberry Pi Imager](https://www.raspberrypi.org/downloads/)，下載官方版較不會出現不相容問題。
 
 將作業系統安裝至micro SD卡。
 > 建議先將SD卡格式化。
