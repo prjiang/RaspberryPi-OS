@@ -7,6 +7,8 @@
 將作業系統安裝至micro SD卡。
 > 建議先將SD卡格式化。
 
+<br>
+
 新增空的ssh檔案(無副檔名) 及 製作WiFi設定檔。
 > 參考資料: [樹莓派 Raspberry Pi，無頭式(無螢幕、鍵盤與滑鼠)，安裝到進入作業系統桌面~完整教學](https://home.gamer.com.tw/creationDetail.php?sn=3908401)
 
@@ -54,5 +56,8 @@ pi@raspberrypi:~ $ sudo raspi-config
 ```
 pi@raspberrypi:~ $ sudo reboot
 ```
+
+<br>
+
 VNC 登入後，即可見到 Raspberry Pi 系統。
 > 參考資料: [樹莓派 raspberry 4B系統 VNC View 連接 Cannot currently show the desktop 錯誤解決](https://www.twblogs.net/a/5d4b3b75bd9eee5327fc11e1)
