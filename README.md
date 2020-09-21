@@ -123,6 +123,8 @@ crontab -e
 ```
 @reboot python /home/pi/myscript.py
 ```
+> 參考資料: [如何幫樹莓派安裝常用的Python套件(How to Install Python Package on Raspberry Pi)](https://www.slideshare.net/YanweiLiu1/pythonhow-to-install-python-package-on-raspberry-pi)
+
 > 參考資料: [一起學 Python 107 : 五分鐘學會使用 Python 傳送 Line 訊息 在 Raspberry pi 開機啟動提醒](http://wyj-learning.blogspot.com/2018/07/python-106-python-line-raspberry-pi.html?m=1)
 
 > 參考資料: [使用Cron安排任務](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
