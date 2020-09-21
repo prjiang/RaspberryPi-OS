@@ -29,7 +29,7 @@
 ##### 方法二
 電腦開啟熱點，提供 Raspberry Pi 連線。
 
-連線後即可從電腦查看 Raspberry Pi 的 IP。
+連線後即可從電腦的<b>熱點設定頁面</b>查看 Raspberry Pi 的 IP。
 
 <br>
 
