@@ -31,8 +31,6 @@
 
 連線後即可從電腦查看 Raspberry Pi 的 IP。
 
-> 參考資料: [基礎-命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
-
 <br>
 
 #### 登入 SSH
@@ -84,6 +82,7 @@ VNC 登入後，即可見到 Raspberry Pi 系統。
 ```
 pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
+> 參考資料: [基礎-命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
 
 <br>
 
