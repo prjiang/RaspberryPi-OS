@@ -31,10 +31,6 @@
 
 連線後即可從電腦查看 Raspberry Pi 的 IP。
 
-若之後想更改連線，可登入ssh 修改 wpa_supplicant.conf ，新增WiFi之帳號密碼。
-```
-pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-```
 > 參考資料: [基礎-命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
 
 <br>
@@ -81,6 +77,12 @@ VNC 登入後，即可見到 Raspberry Pi 系統。
 > 參考資料: [樹莓派 raspberry 4B系統 VNC View 連接 Cannot currently show the desktop 錯誤解決](https://www.twblogs.net/a/5d4b3b75bd9eee5327fc11e1)
 
 <br>
+
+### 更改 Raspberry Pi 的預設網路連線
+若想更改預設網路連線，可登入ssh 修改 wpa_supplicant.conf ，新增WiFi之帳號密碼。
+```
+pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
 
 ### 查看 Raspberry Pi 的 CPU 溫度
 ```
