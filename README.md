@@ -84,6 +84,8 @@ VNC 登入後，即可見到 Raspberry Pi 系統。
 pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
+<>
+
 ### 查看 Raspberry Pi 的 CPU 溫度
 ```
 pi@raspberrypi:~ $ /opt/vc/bin/vcgencmd measure_temp
