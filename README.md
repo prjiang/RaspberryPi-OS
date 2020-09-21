@@ -90,3 +90,33 @@ pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 pi@raspberrypi:~ $ /opt/vc/bin/vcgencmd measure_temp
 ```
+
+### 啟動後，Line Notify 發送通知提醒
+```
+import os
+import lineTool
+import time
+import datetime
+
+Token = "填入你的Token"
+TurnOn_message = "\nRaspberry 已啟動\n"
+Time_message = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+MESSAGE = ''
+
+
+time.sleep(10)
+MESSAGE = TurnOn_message+ Time_message
+print("Send message to Line \n%s\n" % MESSAGE)
+
+lineTool.lineNotify(Token, MESSAGE)
+
+#os.system("pause")
+input()
+```
+存檔後，設定 Corntab 每次 Raspberry Pi 啟動時運行命令。
+```
+@reboot python /home/pi/myscript.py
+```
+> 參考資料: [一起學 Python 107 : 五分鐘學會使用 Python 傳送 Line 訊息 在 Raspberry pi 開機啟動提醒](http://wyj-learning.blogspot.com/2018/07/python-106-python-line-raspberry-pi.html?m=1)
+
+> 參考資料: [使用Cron安排任務](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
