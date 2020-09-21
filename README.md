@@ -93,7 +93,7 @@ pi@raspberrypi:~ $ /opt/vc/bin/vcgencmd measure_temp
 
 <br>
 
-### 啟動後，Line Notify 發送通知提醒
+### 啟動後，Line Notify 發送啟動通知提醒
 ```
 import os
 import lineTool
@@ -119,7 +119,7 @@ input()
 ```
 crontab -e
 ```
-所有＃開頭的都是註解，在文件最後加上以下命令。
+所有＃開頭的都是註解，在文件最後加入以下命令。
 ```
 @reboot python /home/pi/myscript.py
 ```
