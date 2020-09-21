@@ -45,7 +45,7 @@ PS C:\WINDOWS\system32> ssh pi@Raspberry Pi 的IP
 <br>
 
 ### 啟用 VNC 服務
-成功登入ssh後，啟用 VNC Viewer。
+成功登入ssh後，下載 [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)。
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
