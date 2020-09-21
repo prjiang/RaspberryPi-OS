@@ -101,7 +101,7 @@ import time
 import datetime
 
 Token = "填入你的Token"
-TurnOn_message = "\nRaspberry 已啟動\n"
+TurnOn_message = "\nRaspberry Pi has started!\n"
 Time_message = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 MESSAGE = ''
 
