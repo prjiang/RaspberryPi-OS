@@ -130,3 +130,12 @@ crontab -e
 > 參考資料: [一起學 Python 107 : 五分鐘學會使用 Python 傳送 Line 訊息 在 Raspberry pi 開機啟動提醒](http://wyj-learning.blogspot.com/2018/07/python-106-python-line-raspberry-pi.html?m=1)
 
 > 參考資料: [使用Cron安排任務](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
+
+<br>
+
+### SyntaxError: Non-ASCII character ‘\xe4’ in file.
+在程式碼開頭加入以下聲明字符格式
+```
+#!/usr/bin/python
+#-*-coding:utf-8-*-
+```
