@@ -134,7 +134,7 @@ crontab -e
 <br>
 
 ### SyntaxError: Non-ASCII character ‘\xe4’ in file.
-在程式碼開頭加入以下聲明字符格式
+在程式碼開頭加入以下聲明字符格式。
 ```
 #!/usr/bin/python
 #-*-coding:utf-8-*-
