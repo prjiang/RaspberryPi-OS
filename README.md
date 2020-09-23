@@ -97,7 +97,7 @@ pi@raspberrypi:~ $ /opt/vc/bin/vcgencmd measure_temp
 
 ### 啟動後，Line Notify 發送啟動通知提醒
 ```
-import os
+# import os
 import lineTool
 import time
 import datetime
@@ -114,7 +114,7 @@ print("Send message to Line \n%s\n" % MESSAGE)
 
 lineTool.lineNotify(Token, MESSAGE)
 
-#os.system("pause")
+# os.system("pause")
 input()
 ```
 存檔後，設定 Corntab 每次 Raspberry Pi 啟動時運行命令。
