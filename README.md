@@ -79,6 +79,18 @@ VNC 登入後，即可見到 Raspberry Pi 系統。
 <br>
 
 ## Others
+### 備份 SD 卡
+下載[Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)。
+
+<b>裝置</b>選擇 Micro SD 卡位置，<b>映像檔</b>為存放位置，副檔名為img!
+
+點選<b>讀取</b>
+
+讀取成功後，即可退出 Micro SD 卡。
+> 參考資料: [Raspberry Pi Win32 Disk Imager 備份 SD 卡教學](https://oranwind.org/-raspberry-pi-win32-disk-imager-bei-fen-sd-qia-jiao-xue/)
+
+<br>
+
 ### 更改 Raspberry Pi 的預設網路連線
 若想更改預設網路連線，可登入ssh 修改 wpa_supplicant.conf ，新增WiFi之帳號密碼。
 ```
