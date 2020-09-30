@@ -94,7 +94,7 @@ VNC 登入後，即可見到 Raspberry Pi 系統。
 ### 更改 Raspberry Pi 的預設網路連線
 若想更改預設網路連線，可登入ssh 修改 wpa_supplicant.conf ，新增WiFi之帳號密碼。
 ```
-pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+pi@raspberrypi:~ $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 > 參考資料: [基礎-命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
 
@@ -108,6 +108,11 @@ pi@raspberrypi:~ $ /opt/vc/bin/vcgencmd measure_temp
 <br>
 
 ### 啟動後，Line Notify 發送啟動通知提醒
+Raspberry Pi 安裝Python套件
+```
+pi@raspberrypi:~ $ sudo apt-get install python-pip python-dev
+```
+Line Notify 程式碼
 ```
 # import os
 import lineTool
