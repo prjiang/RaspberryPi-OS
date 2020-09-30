@@ -114,14 +114,17 @@ pi@raspberrypi:~ $ sudo apt-get install python-pip python-dev
 ```
 Line Notify 程式碼
 ```
+#!/usr/bin/python
+#-*-coding:utf-8-*-
+
 # import os
 import lineTool
 import time
 import datetime
 
 Token = "填入你的Token"
-TurnOn_message = "\nRaspberry Pi has started!\n"
-Time_message = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+TurnOn_message = "\n💡 Raspberry Pi 已啟動!\n"
+Time_message = time.strftime("🕒 %Y-%m-%d %H:%M:%S", time.localtime())
 MESSAGE = ''
 
 
