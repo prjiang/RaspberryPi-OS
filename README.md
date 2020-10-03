@@ -108,10 +108,7 @@ pi@raspberrypi:~ $ /opt/vc/bin/vcgencmd measure_temp
 <br>
 
 ### 啟動後，Line Notify 發送啟動通知提醒
-Raspberry Pi 安裝Python套件
-```
-pi@raspberrypi:~ $ sudo apt-get install python-pip python-dev
-```
+
 Line Notify 程式碼
 ```
 #!/usr/bin/python
