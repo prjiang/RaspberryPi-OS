@@ -114,7 +114,6 @@ Line Notify 程式碼
 #!/usr/bin/python
 #-*-coding:utf-8-*-
 
-# import os
 import lineTool
 import time
 import datetime
@@ -131,7 +130,6 @@ print("Send message to Line \n%s\n" % MESSAGE)
 
 lineTool.lineNotify(Token, MESSAGE)
 
-# os.system("pause")
 input()
 ```
 存檔後，設定 Corntab 每次 Raspberry Pi 啟動時運行命令。
