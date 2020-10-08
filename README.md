@@ -107,6 +107,18 @@ pi@raspberrypi:~ $ /opt/vc/bin/vcgencmd measure_temp
 
 <br>
 
+### 查看 SD 卡儲存空間
+檔案系統
+```
+pi@raspberrypi:~ $ df -h
+```
+各目錄大小
+```
+pi@raspberrypi:~ $ du --max-depth=1-h
+```
+
+<br>
+
 ### 啟動後，Line Notify 發送啟動通知提醒
 
 Line Notify 程式碼
